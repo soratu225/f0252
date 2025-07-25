@@ -1,0 +1,14 @@
+{
+  "version": 2,
+  "functions": {
+    "api-encrypt.js": {
+      "runtime": "nodejs18.x"
+    }
+  },
+  "routes": [
+    {
+      "src": "/api/encrypt",
+      "dest": "api-encrypt.js"
+    }
+  ]
+}
